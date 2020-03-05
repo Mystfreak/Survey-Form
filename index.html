@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="stylesheet.css" rel="stylesheet" type="text/css"
+<header>
+  <div class="text-box"><h1 id="title"><em>Clash Royale Survey Form</em></h1>
+    <hr>
+    <p id="description"><em>Tell us about your experience with Clash royale</em></p>
+  </div>
+  </header>
+</head>
+<body>
+  <div class="container">
+    <form id="survey-form" method="GET">
+      <div class="labels">
+  <label id="name-label" for="name">Name</label></div>
+    <div class="input-tab">
+      <input class="input-field" type="text" id="name" name="name" placeholder="enter your name" required autofocus></div>
+      
+      <div class="labels">
+        <label id="email-label" for="email">Email</label></div>
+      <div class="input-tab">
+        <input class="input-field" type="email" id="email" name="email" placeholder="enter your email" required autofocus></div>
+      
+      <div class="labels">
+      <label id="number-label" for="number">Age</label></div>
+    <div class="input-tab">
+      <input class="input-field" type="number" id="number" name="number" min="1" max="145" placeholder="your age" required></div>
+      
+      <div class="labels">
+          <label for="dropdown">How was your experience with Clash Royale?</label></div>
+        <div class="input-tab">
+          <select id="dropdown" name="site">
+            <option disabled value selected>Select an option</option>
+            <option value="ok">Fine</option>
+            <option value="great">Great</option>
+            <option value="dislike">Not great</option>
+            <option value="Bad">Rubbish</option>
+            <option value="Hell Yea">Amazing</option>
+            <option value="other">Other</option>
+          </select>
+          </div>
+      
+      <div class="labels">
+          <label>What do you like most about Clash Royale?</label></div>
+        <div class="input-tab">
+            <input type="radio" name="radio-button" value="competition">Ladder<br>
+            <input type="radio" name="radio-button" value="level">Level Upgrade<br>
+            <input type="radio" name="radio-button" value="emotes ">Emotes<br>
+            <input type="radio" name="radio-button" value="challenges">Challenges<br>
+       <input type="radio" name="radio-button" value="party">Party<br>
+        </div>
+      
+      <div class="labels">
+      <label id="number-label" for="number">Rate Clash Royale out of ten</label></div>
+    <div class="input-tab">
+      <input class="input-field" type="number" id="number" name="number" min="1" max="10" placeholder="1-10" required></div>
+      
+      <div class="labels">
+          <label>What is your favourite party mode?<br>(Check all that apply):</label></div>
+    <div class="input-tab">
+      <input type="checkbox" name="elixir" value="elixir">Triple Elixir Battle<br>
+          <input type="checkbox" name="death" value="death">Sudden Death<br>
+      <input type="checkbox" name="2v2" value="2v2">2v2 Battle<br>
+      <input type="checkbox" name="wallbreaker" value="wallbreaker">Wall Breaker Party<br>
+      <input type="checkbox" name="draft" value="draft">Triple Draft Battle<br>
+      <input type="checkbox" name="double" value="double">2v2 Double Elixir<br>
+          <input type="checkbox" name="other" value="other">Other<br>
+        </div>   
+  
+  <div class="labels">
+          <label for="comments">Tell us more about your experiences with Clash Royale</label></div>
+        <div class="input-tab">
+          <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Write your comments here..."></textarea></div>
+      <div class="btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      <hr>
+ <footer>
+      <p>&copy 2020 Khatra Ahmed</p>
+</footer>
+    </form>
+  </div>
+</body
+</html>
